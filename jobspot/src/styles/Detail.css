@@ -1,0 +1,51 @@
+.job-details-section {
+    width: 60%;
+    background: white;
+    padding: 35px 20px 0 25px;
+}
+.job-details{
+    display: flex;
+    flex-direction: column;
+    gap: 40px
+}
+.desc-details{
+    display: flex;
+    flex-direction: column;
+    gap: 24px
+}
+.desc-details>div>h5{
+    font-weight: 600;
+font-size: 20px;
+line-height: 27px;
+margin-bottom: 8px;
+}
+.loc-apply-wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.desc{
+    font-size: 20px;
+line-height: 27px;
+}
+
+
+
+
+
+
+
+
+.edit-delete-wrapper {
+    display: flex;
+    gap: 30px
+}
+.edit,
+.delete {
+    width: 14px;
+}
+
+.edit:hover,
+.delete:hover {
+    transform: scale(1.3);
+}

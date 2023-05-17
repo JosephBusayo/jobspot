@@ -1,0 +1,36 @@
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+}
+.logo{
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 27px;
+    color: #F7941E;
+}
+.logo-span{
+    color: black
+}
+
+.nav-menu{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+    font-size: 18px;
+    line-height: 19px;
+}
+.menu-btn:hover, .menu-btn:focus, .menu-btn:active{
+    color : var(--MAIN-COLOR)
+}
+.post-job-btn{
+    background: #F7941E;
+    border-radius: 6px;
+    padding: 14px 25px;
+    color: white;
+}
+.post-job-btn:hover{
+    background: transparent
+}
